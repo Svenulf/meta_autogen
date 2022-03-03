@@ -18,3 +18,8 @@ export async function meta_autogen(_startId, _amount, metadataSource) {
 
   return "[Finished successfully]";
 }
+
+export function randomNum(max) {
+  let rand = Math.floor(Math.random() * max) + 1;
+  return rand;
+}
